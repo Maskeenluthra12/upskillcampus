@@ -1,0 +1,40 @@
+[33mcdaea0c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial commit - UrbanFlow AI
+ .gitignore                |   7 [32m+++++++[m
+ model/holiday_encoder.pkl | Bin [31m484[m -> [32m0[m bytes
+ model/traffic_model.pkl   | Bin [31m158829441[m -> [32m0[m bytes
+ model/weather_encoder.pkl | Bin [31m503[m -> [32m0[m bytes
+ 4 files changed, 7 insertions(+)
+[33m126ea34[m Initial commit - UrbanFlow AI Smart City Traffic Forecasting
+ README.md                                   |     0
+ app.py                                      |  1214 [32m+++[m
+ app_v2.py                                   |   209 [32m+[m
+ assets/cities/bangalore.jpg                 |   Bin [31m0[m -> [32m7011178[m bytes
+ assets/cities/chennai.jpg                   |   Bin [31m0[m -> [32m1973806[m bytes
+ assets/cities/delhi.jpg                     |   Bin [31m0[m -> [32m7416361[m bytes
+ assets/cities/hyderabad.jpg                 |   Bin [31m0[m -> [32m2887836[m bytes
+ assets/cities/kolkata.jpg                   |   Bin [31m0[m -> [32m2583854[m bytes
+ assets/cities/mumbai.jpg                    |   Bin [31m0[m -> [32m3017298[m bytes
+ assets/hero.jpg                             |     0
+ assets/style.css                            |    88 [32m+[m
+ dataset/traffic_dataset.csv                 | 15001 [32m++++++++++++++++++++++++++[m
+ eda.py                                      |   247 [32m+[m
+ explore_data.py                             |    34 [32m+[m
+ generate_dataset.py                         |   105 [32m+[m
+ images/01_hourly_traffic.png                |   Bin [31m0[m -> [32m146118[m bytes
+ images/02_weather_impact.png                |   Bin [31m0[m -> [32m89476[m bytes
+ images/03_holiday_impact.png                |   Bin [31m0[m -> [32m84533[m bytes
+ images/04_temperature_distribution.png      |   Bin [31m0[m -> [32m100469[m bytes
+ images/05_traffic_distribution.png          |   Bin [31m0[m -> [32m157796[m bytes
+ images/06_daywise_traffic.png               |   Bin [31m0[m -> [32m109970[m bytes
+ images/07_monthly_trend.png                 |   Bin [31m0[m -> [32m208630[m bytes
+ images/08_correlation_heatmap.png           |   Bin [31m0[m -> [32m189186[m bytes
+ model/holiday_encoder.pkl                   |   Bin [31m0[m -> [32m484[m bytes
+ model/traffic_model.pkl                     |   Bin [31m0[m -> [32m158829441[m bytes
+ model/weather_encoder.pkl                   |   Bin [31m0[m -> [32m503[m bytes
+ requirements.txt                            |     0
+ train_model.py                              |    78 [32m+[m
+ utils/__pycache__/loader.cpython-314.pyc    |   Bin [31m0[m -> [32m1636[m bytes
+ utils/__pycache__/predictor.cpython-314.pyc |   Bin [31m0[m -> [32m1095[m bytes
+ utils/loader.py                             |    34 [32m+[m
+ utils/predictor.py                          |    46 [32m+[m
+ 32 files changed, 17056 insertions(+)
