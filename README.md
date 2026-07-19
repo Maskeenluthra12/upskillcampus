@@ -28,6 +28,7 @@ The system enables city administrators and traffic management authorities to mon
 - 🌆 Dynamic City Background Images
 - 💡 Enterprise Light Theme Dashboard
 - ⚡ Real-time Prediction Interface
+  
 
 ---
 
