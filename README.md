@@ -9,9 +9,13 @@ AI-powered Smart Agriculture Assistant built using:
 - Python
 - Streamlit
 - Machine Learning
-- Google Gemini API
-- OpenWeather API
-- PDF Report Generation
+- AI Farming Advisor (Google Gemini API)
+- Live Weather Forecast (OpenWeather API)
+- Professional PDF Report Generator
+- Downloadable Crop Reports
+- State-wise Crop Analysis
+- Crop Analytics Dashboard
+- Production Trend Visualizations
 
 📁 Folder: `AgriVisionAI`
 
@@ -20,9 +24,13 @@ AI-powered Smart Agriculture Assistant built using:
 ### 🚦 SmartCityTrafficForecasting
 Traffic Forecasting Dashboard built using:
 - Python
-- Streamlit
-- Machine Learning
+- Modern Streamlit UI
+- Machine Learning Traffic Prediction
 - Interactive Visualizations
+- Historical Traffic Analysis
+- Multiple City Support
+- Dynamic City-based Dashboard Backgrounds
+- Weather-aware Traffic Insights
 
 📁 Folder: `SmartCityTrafficForecasting`
 
