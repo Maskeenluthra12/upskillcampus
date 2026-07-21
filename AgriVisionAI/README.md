@@ -222,8 +222,6 @@ The application can generate downloadable PDF reports containing:
 
 # 👩‍💻 Developed By
 
-**Maskeen Luthra**
+Maskeen Luthra
 
-Final Internship Project
 
-Upskill Campus
