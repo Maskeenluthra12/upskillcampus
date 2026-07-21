@@ -21,6 +21,16 @@ AI-powered Smart Agriculture Assistant built using:
 
 ---
 
+### 📸 Project Preview
+
+<p align="center">
+  <img src="AgriVisionAI/assets/images/home.png" width="900">
+</p>
+
+➡️ **Project Folder:** [`AgriVisionAI`](AgriVisionAI)
+
+---
+
 ### 🚦 SmartCityTrafficForecasting
 Traffic Forecasting Dashboard built using:
 - Python
@@ -35,6 +45,17 @@ Traffic Forecasting Dashboard built using:
 📁 Folder: `SmartCityTrafficForecasting`
 
 ---
+
+### 📸 Project Preview
+
+<p align="center">
+  <img src="SmartCityTrafficForecasting/assets/hero.jpg" width="900">
+</p>
+
+➡️ **Project Folder:** [`SmartCityTrafficForecasting`](SmartCityTrafficForecasting)
+
+---
+
 
 ## 📄 Project Reports
 
