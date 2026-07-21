@@ -49,9 +49,8 @@ Traffic Forecasting Dashboard built using:
 ### 📸 Project Preview
 
 <p align="center">
-  <img src="SmartCityTrafficForecasting/assets/hero.jpg" width="900">
+  <img src="SmartCityTrafficForecasting/assets/homeM.png" width="900">
 </p>
-
 ➡️ **Project Folder:** [`SmartCityTrafficForecasting`](SmartCityTrafficForecasting)
 
 ---
