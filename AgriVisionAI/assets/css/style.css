@@ -1,0 +1,559 @@
+/* ================================
+        GOOGLE FONT
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ================================
+        STREAMLIT RESET
+================================ */
+
+html,
+body,
+[class*="css"]{
+
+font-family:'Poppins',sans-serif;
+
+}
+
+header,
+footer,
+#MainMenu{
+
+visibility:hidden;
+
+}
+
+.block-container{
+
+padding:0;
+
+max-width:100%;
+
+}
+
+.stApp{
+
+background:#F5FFF3;
+
+}
+
+
+/* ================================
+            HERO
+================================ */
+
+.hero{
+
+height:100vh;
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+
+/* Dark Overlay */
+
+.overlay{
+
+height:100%;
+
+width:100%;
+
+background:linear-gradient(
+
+rgba(0,0,0,.35),
+
+rgba(0,0,0,.45)
+
+);
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+
+/* ================================
+            NAVBAR
+================================ */
+
+.navbar{
+
+width:92%;
+
+margin:25px auto;
+
+padding:18px 40px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(255,255,255,.15);
+
+backdrop-filter:blur(18px);
+
+border-radius:60px;
+
+box-shadow:0 12px 35px rgba(0,0,0,.20);
+
+}
+
+
+/* Logo */
+
+.logo{
+
+font-size:34px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+
+/* Menu */
+
+.menu{
+
+display:flex;
+
+gap:40px;
+
+}
+
+
+.menu a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+font-weight:500;
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+
+.menu a:hover{
+
+color:#B8FF8C;
+
+}
+
+
+/* Button */
+
+.nav-btn{
+
+padding:15px 35px;
+
+border-radius:40px;
+
+background:linear-gradient(
+
+135deg,
+
+#79E05C,
+
+#3EAF42
+
+);
+
+color:white;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.35s;
+
+box-shadow:0 8px 25px rgba(0,0,0,.20);
+
+}
+
+
+.nav-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+
+/* ================================
+        HERO CONTENT
+================================ */
+
+.hero-content{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+text-align:center;
+
+color:white;
+
+}
+
+
+.hero-content h1{
+
+font-size:95px;
+
+font-weight:800;
+
+margin-bottom:15px;
+
+}
+
+
+.hero-content h2{
+
+font-size:38px;
+
+font-weight:500;
+
+margin-bottom:25px;
+
+}
+
+
+.hero-content p{
+
+font-size:24px;
+
+margin-bottom:40px;
+
+letter-spacing:1px;
+
+}
+
+
+/* Explore Button */
+
+.hero-content button{
+
+padding:22px 55px;
+
+border:none;
+
+border-radius:60px;
+
+background:linear-gradient(
+
+135deg,
+
+#82EA63,
+
+#3EA943
+
+);
+
+color:white;
+
+font-size:22px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.35s;
+
+box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+
+.hero-content button:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.30);
+
+}
+
+
+/* ================================
+        SECTION TITLES
+================================ */
+
+.section-title{
+
+text-align:center;
+
+font-size:46px;
+
+font-weight:700;
+
+color:#2E7D32;
+
+margin-top:60px;
+
+margin-bottom:10px;
+
+}
+
+
+.section-subtitle{
+
+text-align:center;
+
+font-size:21px;
+
+color:#777;
+
+margin-bottom:50px;
+
+}
+
+
+/* ================================
+        ABOUT
+================================ */
+
+.about-text{
+
+width:75%;
+
+margin:auto;
+
+font-size:20px;
+
+text-align:center;
+
+line-height:1.8;
+
+color:#555;
+
+margin-bottom:70px;
+
+}
+/* ==========================================
+            FEATURE CARDS
+========================================== */
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+
+background:white;
+
+border-radius:22px;
+
+padding:20px;
+
+border:1px solid #E6F4E6;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.35s ease;
+
+min-height:270px;
+
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"]:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.18);
+
+border:1px solid #4CAF50;
+
+}
+
+
+/* ==========================================
+            METRIC CARDS
+========================================== */
+
+div[data-testid="metric-container"]{
+
+background:white;
+
+padding:20px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+border:1px solid #E8F5E9;
+
+transition:.35s;
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 18px 40px rgba(0,0,0,.18);
+
+border:1px solid #66BB6A;
+
+}
+
+
+/* Metric Number */
+
+div[data-testid="metric-container"] label{
+
+font-size:17px;
+
+font-weight:600;
+
+color:#2E7D32;
+
+}
+
+div[data-testid="metric-container"] [data-testid="stMetricValue"]{
+
+font-size:42px;
+
+font-weight:800;
+
+color:#1B5E20;
+
+}
+
+
+/* ==========================================
+                BUTTONS
+========================================== */
+
+.stButton>button{
+
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:14px;
+
+background:linear-gradient(
+135deg,
+#66BB6A,
+#2E7D32
+);
+
+color:white;
+
+font-size:17px;
+
+font-weight:600;
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.stButton>button:hover{
+
+transform:scale(1.03);
+
+background:linear-gradient(
+135deg,
+#81C784,
+#43A047
+);
+
+}
+
+
+/* Disabled Buttons */
+
+.stButton>button:disabled{
+
+background:#d6d6d6;
+
+color:#666;
+
+}
+
+
+/* ==========================================
+            HEADINGS
+========================================== */
+
+h1{
+
+font-weight:800;
+
+}
+
+h2{
+
+font-weight:700;
+
+}
+
+h3{
+
+font-weight:600;
+
+color:#2E7D32;
+
+}
+
+
+/* ==========================================
+            SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#F5FFF3;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#66BB6A;
+
+border-radius:30px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#388E3C;
+
+}
