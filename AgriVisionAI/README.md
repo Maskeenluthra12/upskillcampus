@@ -2,13 +2,15 @@
 
 ### AI-Powered Smart Agriculture Assistant using Machine Learning, Gemini AI & Weather API
 
-AgriVisionAI is an intelligent agriculture assistant developed using **Python** and **Streamlit** that helps farmers, researchers, and agriculture enthusiasts analyze crop production data, predict suitable crops, access real-time weather information, generate AI-powered farming advice, and download professional crop reports.
+AgriVisionAI is an intelligent agriculture assistant built using **Python**, **Streamlit**, **Machine Learning**, **Google Gemini API**, and **OpenWeather API**. It helps farmers, researchers, and agriculture enthusiasts make informed agricultural decisions through crop prediction, AI-powered farming guidance, weather forecasting, interactive analytics, and downloadable PDF reports.
 
 ---
 
 ## 📸 Project Preview
 
-![AgriVisionAI Dashboard](images/home.png)
+<p align="center">
+  <img src="assets/images/home.png" width="900">
+</p>
 
 ---
 
